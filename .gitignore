@@ -1,49 +1,21 @@
-# History files
-.Rhistory
-.Rapp.history
+cpi = read.csv("C:/Users/kumbalas-INS/Downloads/cpi.csv")
 
-# Session Data files
-.RData
-.RDataTmp
+colnames(cpi)
 
-# User-specific files
-.Ruserdata
+subset = subset(cpi, select= c("REF_DATE", "VALUE", "Alternative.measures"))
 
-# Example code in package build process
-*-Ex.R
+unique(subset$Alternative.measures)
 
-# Output files from R CMD build
-/*.tar.gz
+install.packages("dplyr")
 
-# Output files from R CMD check
-/*.Rcheck/
+library(dplyr)
 
-# RStudio files
-.Rproj.user/
+subset = subset%>% filter(Alternative.measures == "Measure of core inflation based on a factor model, CPI-common (year-over-year percent change)")
 
-# produced vignettes
-vignettes/*.html
-vignettes/*.pdf
+subset = subset(subset, select= c("REF_DATE", "VALUE"))
 
-# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
-.httr-oauth
+install.packages("quantmod")
 
-# knitr and R markdown default cache directories
-*_cache/
-/cache/
+library(quantmod)
 
-# Temporary files created by R markdown
-*.utf8.md
-*.knit.md
-
-# R Environment Variables
-.Renviron
-
-# pkgdown site
-docs/
-
-# translation temp files
-po/*~
-
-# RStudio Connect folder
-rsconnect/
+subset$REF_DATE <- as.yearmon(subset$REF_DATE)
