@@ -51,6 +51,7 @@ __Data exported to: /Users/kumbalas-INS/Documents/cpi_core.xlsx__
 
 # Gas Prices dataset - 218 observations 
 
+Not data available during 2000 - 2001
 > - gasp = read.csv("C:/Users/kumbalas-INS/Downloads/gas_prices.csv")
 > - colnames(gasp)
 
