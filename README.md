@@ -69,13 +69,9 @@ __Data exported to: /Users/kumbalas-INS/Documents/cpi_core.xlsx__
 __Export Data to a xlsx file__
 
 > - library(openxlsx)
-> - file_path <- "/Users/kumbalas-INS/Documents/cpi_core.xlsx"
+> - file_path <- "/Users/kumbalas-INS/Documents/g.xlsx"
 > - write.xlsx(subset, file_path, sheetName = "gasprices1", rowNames = FALSE)
 > - cat("Data exported to:", file_path, "\n")
-Data exported to: /Users/kumbalas-INS/Documents/cpi.xlsx 
-> file_path <- "/Users/kumbalas-INS/Documents/g.xlsx"
-> write.xlsx(subset, file_path, sheetName = "gasprices1", rowNames = FALSE)
-> cat("Data exported to:", file_path, "\n")
 __Data exported to: /Users/kumbalas-INS/Documents/g.xlsx__
 
 -  Find the excel file here: [g.xlsx](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/files/13245822/g.xlsx)
