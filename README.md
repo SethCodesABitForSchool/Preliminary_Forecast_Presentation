@@ -162,8 +162,10 @@ __Export Data to a xlsx file__
 
 ![image](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/assets/147195203/34588c2a-7a6c-4365-a39d-a48027695b75) **Find the .csv file here (not modified in r):**[monetaryag.csv](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/files/13246699/monetaryag.csv)
 
+# Sources For Data
 
-
+1. Bank of Canada - Expectations data: https://www.bankofcanada.ca/publications/canadian-survey-of-consumer-expectations/canadian-survey-of-consumer-expectations-survey-data/
+2. 
 
 
 
