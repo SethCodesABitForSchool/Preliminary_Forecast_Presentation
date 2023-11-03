@@ -1,9 +1,9 @@
 # Preliminary_Forecast_Presentation
 Revision of Forecast
 
-![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) `#Text.`
-![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) `#c5f015`
-![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) `#1589F0`
+- ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) `#Text.`
+- ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) `#c5f015`
+- ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) `#1589F0`
   
 # Data Collection - GDP and CPI - Exogeneous Variables 
 1. For GDP:
@@ -78,5 +78,5 @@ __Export Data to a xlsx file__
 > - cat("Data exported to:", file_path, "\n")
 __Data exported to: /Users/kumbalas-INS/Documents/g.xlsx__
 
--  Find the excel file here: [g.xlsx](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/files/13245822/g.xlsx)
+![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) `Find the excel file here:` [g.xlsx](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/files/13245822/g.xlsx)
 
