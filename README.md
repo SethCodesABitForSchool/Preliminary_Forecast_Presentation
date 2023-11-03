@@ -61,12 +61,6 @@ __Data exported to: /Users/kumbalas-INS/Documents/cpi_core.xlsx__
 ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) `Not data available during 2000 - 2001`
 > - gasp = read.csv("C:/Users/kumbalas-INS/Downloads/gas_prices.csv")
 > - colnames(gasp)
-
- [1] "REF_DATE"      "GEO"           "DGUID"         "Type.of.fuel"  "UOM"           "UOM_ID"       
- [7] "SCALAR_FACTOR" "SCALAR_ID"     "VECTOR"        "COORDINATE"    "VALUE"         "STATUS"       
- [13] "SYMBOL"        "TERMINATED"    "DECIMALS"     
-
-
 > - subset = subset(gasp, select= c("REF_DATE", "VALUE", "GEO"))
 > - library(dplyr)
 > - subset = subset%>% filter(GEO == "CANADA")
