@@ -2,6 +2,8 @@
 Revision of Forecast
 
 <span style="color: green;">This sentence is in green color.</span>
+<span style="background-color: yellow;">This sentence is highlighted.</span>
+
 
 # Data Collection - GDP and CPI - Exogeneous Variables 
 1. For GDP:
