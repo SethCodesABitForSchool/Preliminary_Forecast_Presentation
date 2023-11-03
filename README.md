@@ -30,7 +30,7 @@ Revision of Forecast
 - Gas prices due to the geopolitical events (Heena)
 - Consumer spending (Seth)
 
-# Data wrangling - CPI Core - Codes
+# CPI Core - Seth 
 
 > - subset = subset(cpi, select= c("REF_DATE", "VALUE", "Alternative.measures"))
 > - library(dplyr)
@@ -56,9 +56,8 @@ __Data exported to: /Users/kumbalas-INS/Documents/cpi_core.xlsx__
 
 ![image](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/assets/147195203/34588c2a-7a6c-4365-a39d-a48027695b75) **Find the excel file here:** [cpi_core.xlsx](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/files/13245727/cpi_core.xlsx)
 
-# Gas Prices dataset - 218 observations 
-
-![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) `Not data available during 2000 - 2001`
+# Gas Prices dataset - 218 observations - Heena ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png)
+`Not data available during 2000 - 2001`
 > - gasp = read.csv("C:/Users/kumbalas-INS/Downloads/gas_prices.csv")
 > - colnames(gasp)
 > - subset = subset(gasp, select= c("REF_DATE", "VALUE", "GEO"))
