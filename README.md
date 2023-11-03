@@ -1,6 +1,7 @@
 # Preliminary_Forecast_Presentation
 Revision of Forecast
 
+<span style="color: green;">This sentence is in green color.</span>
 
 # Data Collection - GDP and CPI - Exogeneous Variables 
 1. For GDP:
