@@ -37,3 +37,16 @@ Revision of Forecast
 > - subset = subset%>% filter(Alternative.measures == "Measure of core inflation based on a factor model, CPI-common (year-over-year percent change)")
 > - subset = subset(subset, select= c("REF_DATE", "VALUE"))
 > - View(subset)
+
+__Export Data to a xlsx file__
+
+> - install.packages("openxlsx")
+> - library(openxlsx)
+> - file_path <- "/Users/kumbalas-INS/Documents/cpi_core.xlsx"
+> - write.xlsx(subset, file_path, sheetName = "cpi_core1", rowNames = FALSE)
+> - cat("Data exported to:", file_path, "\n")
+> - __Data exported to: /Users/kumbalas-INS/Documents/cpi_core.xlsx__
+
+ - Find the excel file here: [cpi_core.xlsx](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/files/13245727/cpi_core.xlsx)
+
+ 
