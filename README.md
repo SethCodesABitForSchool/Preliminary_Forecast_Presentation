@@ -4,7 +4,8 @@ Revision of Forecast
 - ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) `#Text.`
 - ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) `#c5f015`
 - ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) `#1589F0`
-- ![image](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/assets/147195203/c88557fc-a0e6-4f58-88da-b2751315128a)
+
+> ![image](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/assets/147195203/c88557fc-a0e6-4f58-88da-b2751315128a)
 
 
 
@@ -54,7 +55,7 @@ __Export Data to a xlsx file__
 > - cat("Data exported to:", file_path, "\n")
 __Data exported to: /Users/kumbalas-INS/Documents/cpi_core.xlsx__
 
-![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) `Find the excel file here:` [cpi_core.xlsx](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/files/13245727/cpi_core.xlsx)
+![image](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/assets/147195203/3cb0e29c-3845-4c8d-8d27-f5fc9f1020ee) `Find the excel file here:` [cpi_core.xlsx](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/files/13245727/cpi_core.xlsx)
 
 # Gas Prices dataset - 218 observations 
 
