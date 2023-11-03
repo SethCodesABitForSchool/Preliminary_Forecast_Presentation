@@ -10,7 +10,7 @@ Revision of Forecast
 
   
 # Data Collection - GDP and CPI - Exogeneous Variables 
-1. For GDP:
+1. **For GDP:**
  - Consumer spending (Seth)
  - Business investments (Seth)
  - Government expenditure (Seth)
@@ -21,7 +21,7 @@ Revision of Forecast
  - Mortgage rate (Ayesha)
  - Unemployment (Ayesha)
  
-2. For Inflation: 
+2. **For Inflation:** 
 - Consumer price index (Seth)
 - Yield curve/ Open market operations (Ayesha)
 - Interest rates (Heena)
@@ -115,6 +115,7 @@ __Data exported to: /Users/kumbalas-INS/Documents/g.xlsx__
 > - participation_rate$REF_DATE <- as.yearmon(participation_rate$REF_DATE)
 > - View(participation_rate)
 > - View(unemployment_rate)
+__Export Data to a xlsx file__
 > - library(openxlsx)
 > - file_path <- "/Users/kumbalas-INS/Documents/participation_rate.xlsx"
 > - write.xlsx(participation_rate, file_path, sheetName = "participation_rate", rowNames = FALSE)
@@ -122,6 +123,8 @@ __Data exported to: /Users/kumbalas-INS/Documents/g.xlsx__
 - __Data exported to: /Users/kumbalas-INS/Documents/participation_rate.xlsx__
  
 ![image](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/assets/147195203/34588c2a-7a6c-4365-a39d-a48027695b75) **Find the excel file here:** [participation_rate.xlsx](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/files/13246407/participation_rate.xlsx)
+
+__Export Data to a xlsx file__
 
 > - library(openxlsx)
 > - file_path <- "/Users/kumbalas-INS/Documents/unemployment_rate.xlsx"
@@ -137,6 +140,7 @@ __Data exported to: /Users/kumbalas-INS/Documents/g.xlsx__
 > - library(quantmod)
 > - data$Date <- as.yearmon(data$Date)
 > - View(data)
+__Export Data to a xlsx file__
 > - library(openxlsx)
 > - file_path <- "/Users/kumbalas-INS/Documents/bankratem.xlsx"
 > - write.xlsx(data, file_path, sheetName = "Bankrts_m", rowNames = FALSE)
