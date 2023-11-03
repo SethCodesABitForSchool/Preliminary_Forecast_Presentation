@@ -149,6 +149,17 @@ __Export Data to a xlsx file__
   
 ![image](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/assets/147195203/34588c2a-7a6c-4365-a39d-a48027695b75) **Find the excel file here:**[bankratem.xlsx](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/files/13246595/bankratem.xlsx)
 
+# Monetary Aggregates - Money Supply - ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) `Ayesha`
+> - data = read.csv("C:/Users/kumbalas-INS/Documents/monetaryag.csv")
+> - View(data)
+> - data <- na.omit(data)
+> - colnames(data)
+[1] "date"         "M1...gross."  "M1....gross." "M2....gross."
+> - library(quantmod)
+> - data$date <- as.yearmon(data$date) # this is not the foremat that should be used. 
+> - View(data)
+![image](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/assets/147195203/34588c2a-7a6c-4365-a39d-a48027695b75) **Find the .csv file here (not modified in r):**[monetaryag.csv](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/files/13246699/monetaryag.csv)
+
 
 
 
