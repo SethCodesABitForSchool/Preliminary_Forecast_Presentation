@@ -131,6 +131,19 @@ __Data exported to: /Users/kumbalas-INS/Documents/g.xlsx__
 
 ![image](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/assets/147195203/34588c2a-7a6c-4365-a39d-a48027695b75) **Find the excel file here:** [unemployment_rate.xlsx](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/files/13246416/unemployment_rate.xlsx)
 
+# Interest Rate - Monthly - - ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) `Heena`
+> - data = read.csv("C:/Users/kumbalas-INS/Documents/bank_rate_monthly.csv")
+> - colnames(data)
+> - library(quantmod)
+> - data$Date <- as.yearmon(data$Date)
+> - View(data)
+> - library(openxlsx)
+> - file_path <- "/Users/kumbalas-INS/Documents/bankratem.xlsx"
+> - write.xlsx(data, file_path, sheetName = "Bankrts_m", rowNames = FALSE)
+> - cat("Data exported to:", file_path, "\n")
+- __Data exported to: /Users/kumbalas-INS/Documents/bankratem.xlsx__
+  
+![image](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/assets/147195203/34588c2a-7a6c-4365-a39d-a48027695b75) **Find the excel file here:**[bankratem.xlsx](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/files/13246595/bankratem.xlsx)
 
 
 
