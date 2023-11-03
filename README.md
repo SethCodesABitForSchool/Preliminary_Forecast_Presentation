@@ -82,5 +82,5 @@ __Export Data to a xlsx file__
 > - cat("Data exported to:", file_path, "\n")
 __Data exported to: /Users/kumbalas-INS/Documents/g.xlsx__
 
-- ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **Find the excel file here:** [g.xlsx](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/files/13245822/g.xlsx)
+![image](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/assets/147195203/34588c2a-7a6c-4365-a39d-a48027695b75) **Find the excel file here:** [g.xlsx](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/files/13245822/g.xlsx)
 
