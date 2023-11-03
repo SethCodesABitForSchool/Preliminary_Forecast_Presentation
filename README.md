@@ -78,3 +78,63 @@ __Data exported to: /Users/kumbalas-INS/Documents/g.xlsx__
 
 ![image](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/assets/147195203/34588c2a-7a6c-4365-a39d-a48027695b75) **Find the excel file here:** [g.xlsx](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/files/13245822/g.xlsx)
 
+# Unemployment Rate and Participation Rate - Heena 
+> - data = read.csv("C:/Users/kumbalas-INS/Downloads/data.csv")
+> - colnames(data)
+> - unique(data$Statistics)
+> - unique(data$GEO)
+> - unique(data$REF_DATE)
+> - unique(data$Labour.force.characteristics)
+> - subset = subset(data, select= c("REF_DATE", "VALUE", "Labour.force.characteristics"))
+> - library(dplyr)
+> - subset = subset%>% filter(Labour.force.characteristics == "Unemployment rate")
+> - View(subset)
+> - subset2 = subset(data, select= c("REF_DATE", "VALUE", "Labour.force.characteristics"))
+> - subset2 = subset2%>% filter(Labour.force.characteristics == "Participation rate")
+> - library(quantmod)
+> - unemployment_rate = subset
+> - View(unemployment_rate)
+> - participation_rate = subset2
+> - unemployment_rate = subset(data, select= c("REF_DATE", "VALUE"))
+> - participation_rate = subset(data, select= c("REF_DATE", "VALUE"))
+> - View(unemployment_rate)
+> - View(participation_rate)
+> - library(quantmod)
+> - participation_rate$REF_DATE <- as.yearmon(participation_rate$REF_DATE)
+> - View(participation_rate)
+> - View(subset)
+> - unemployment_rate1 = subset
+> - participation_rate1 = subset2
+> - rm(subset)
+> - rm(subset2)
+> - participation_rate = subset(participation_rate1, select= c("REF_DATE", "VALUE"))
+> - unemployment_rate = subset(unemployment_rate1, select= c("REF_DATE", "VALUE"))
+> - rm(unemployment_rate1)
+> - rm(participation_rate1)
+> - library(quantmod)
+> - unemployment_rate$REF_DATE <- as.yearmon(unemployment_rate$REF_DATE)
+> - participation_rate$REF_DATE <- as.yearmon(participation_rate$REF_DATE)
+> - View(participation_rate)
+> - View(unemployment_rate)
+> - library(openxlsx)
+> - file_path <- "/Users/kumbalas-INS/Documents/participation_rate.xlsx"
+> - write.xlsx(participation_rate, file_path, sheetName = "participation_rate", rowNames = FALSE)
+> - cat("Data exported to:", file_path, "\n")
+- __Data exported to: /Users/kumbalas-INS/Documents/participation_rate.xlsx__
+ 
+![image](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/assets/147195203/34588c2a-7a6c-4365-a39d-a48027695b75) **Find the excel file here:** [participation_rate.xlsx](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/files/13246407/participation_rate.xlsx)
+
+> - library(openxlsx)
+> - file_path <- "/Users/kumbalas-INS/Documents/unemployment_rate.xlsx"
+> - write.xlsx(unemployment_rate, file_path, sheetName = "unemployment_rate", rowNames = FALSE)
+> - cat("Data exported to:", file_path, "\n")
+- __Data exported to: /Users/kumbalas-INS/Documents/unemployment_rate.xlsx__
+
+![image](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/assets/147195203/34588c2a-7a6c-4365-a39d-a48027695b75) **Find the excel file here:** [unemployment_rate.xlsx](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/files/13246416/unemployment_rate.xlsx)
+
+
+
+
+
+
+
