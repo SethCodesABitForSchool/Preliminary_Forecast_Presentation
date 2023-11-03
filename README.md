@@ -55,7 +55,7 @@ __Export Data to a xlsx file__
 > - cat("Data exported to:", file_path, "\n")
 __Data exported to: /Users/kumbalas-INS/Documents/cpi_core.xlsx__
 
-![image](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/assets/147195203/34588c2a-7a6c-4365-a39d-a48027695b75) `Find the excel file here:` [cpi_core.xlsx](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/files/13245727/cpi_core.xlsx)
+![image](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/assets/147195203/34588c2a-7a6c-4365-a39d-a48027695b75) `Find the excel file here:`[cpi_core.xlsx](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/files/13245727/cpi_core.xlsx)
 
 # Gas Prices dataset - 218 observations 
 
