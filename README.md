@@ -1,20 +1,10 @@
 # Preliminary_Forecast_Presentation
 Revision of Forecast
 
-<span style="color: green;">This sentence is in green color.</span>
-<span style="background-color: yellow;">This sentence is highlighted.</span>
-
-![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) `#This sentence is in green color.`
+![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) `#Text.`
 ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) `#c5f015`
 ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) `#1589F0`
   
-To create a list of any colors you like:
-
-#f03c15 #f03c15
-#c5f015 #c5f015
-#1589F0 #1589F0
-
-
 # Data Collection - GDP and CPI - Exogeneous Variables 
 1. For GDP:
  - Consumer spending (Seth)
@@ -64,7 +54,7 @@ __Data exported to: /Users/kumbalas-INS/Documents/cpi_core.xlsx__
 
 # Gas Prices dataset - 218 observations 
 
-Not data available during 2000 - 2001
+![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) `Not data available during 2000 - 2001`
 > - gasp = read.csv("C:/Users/kumbalas-INS/Downloads/gas_prices.csv")
 > - colnames(gasp)
 
