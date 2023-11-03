@@ -4,6 +4,16 @@ Revision of Forecast
 <span style="color: green;">This sentence is in green color.</span>
 <span style="background-color: yellow;">This sentence is highlighted.</span>
 
+![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) `#f03c15`
+![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) `#c5f015`
+![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) `#1589F0`
+  
+To create a list of any colors you like:
+
+#f03c15 #f03c15
+#c5f015 #c5f015
+#1589F0 #1589F0
+
 
 # Data Collection - GDP and CPI - Exogeneous Variables 
 1. For GDP:
