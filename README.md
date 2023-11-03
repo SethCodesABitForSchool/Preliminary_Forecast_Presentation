@@ -56,7 +56,7 @@ __Data exported to: /Users/kumbalas-INS/Documents/cpi_core.xlsx__
 
 ![image](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/assets/147195203/34588c2a-7a6c-4365-a39d-a48027695b75) **Find the excel file here:** [cpi_core.xlsx](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/files/13245727/cpi_core.xlsx)
 
-# Gas Prices dataset - 218 observations - ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) `Heena` + ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) `Ayesha`
+# Gas Prices dataset - 218 observations - ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) `Heena`
 `Not data available during 2000 - 2001`
 > - gasp = read.csv("C:/Users/kumbalas-INS/Downloads/gas_prices.csv")
 > - colnames(gasp)
@@ -77,7 +77,7 @@ __Data exported to: /Users/kumbalas-INS/Documents/g.xlsx__
 
 ![image](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/assets/147195203/34588c2a-7a6c-4365-a39d-a48027695b75) **Find the excel file here:** [g.xlsx](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/files/13245822/g.xlsx)
 
-# Unemployment Rate and Participation Rate - ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) `Heena`
+# Unemployment Rate and Participation Rate - ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) `Heena` + ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) `Ayesha`
 > - data = read.csv("C:/Users/kumbalas-INS/Downloads/data.csv")
 > - colnames(data)
 > - unique(data$Statistics)
