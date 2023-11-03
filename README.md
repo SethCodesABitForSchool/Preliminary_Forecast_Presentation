@@ -4,7 +4,8 @@ Revision of Forecast
 - ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) `#Text.`
 - ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) `#c5f015`
 - ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) `#1589F0`
-- ![image](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/assets/147195203/66ba02aa-f014-4a01-8401-62a4f03e5ee0)
+- ![image](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/assets/147195203/d1af1317-0390-4b14-9ede-6079fa64cebe)
+
 
   
 # Data Collection - GDP and CPI - Exogeneous Variables 
