@@ -189,10 +189,19 @@ __Data exported to: /Users/kumbalas-INS/Documents/bankratem.xlsx__
 
 ![BoC_Chart](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/assets/147195203/d07a9f59-8980-463f-b6ee-92ef253d43fc)
 
-
-__Figure 2: This chart presents median values. For an explanation of the computation, see the Overview. The Overview includes the survey questions. This chart is available by demographic characteristics.__
+__Figure 1: Household income refers to total income from all sources before taxes and deductions. Note: This chart presents median values.__ 
 
 ![BoC_Chart (1)](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/assets/147195203/54aa1592-7a84-4560-9f54-28750c4862ca)
+
+
+__Figure 2: This chart presents median values.__
+
+
+![BoC_Chart (2)](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/assets/147195203/88a3b75c-a4c3-4224-83d5-c8eb1a4c1dbe)
+
+
+__Figure 3: Note: This chart presents a measure of median uncertainty based on the interquartile range of respondents’ forecasting outcomes for different time frames.__
+
 
 
 # Sources For Data
