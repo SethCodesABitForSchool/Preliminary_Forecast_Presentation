@@ -52,6 +52,8 @@ __Export Data to a xlsx file__
 > - file_path <- "/Users/kumbalas-INS/Documents/cpi_core.xlsx"
 > - write.xlsx(subset, file_path, sheetName = "cpi_core1", rowNames = FALSE)
 > - cat("Data exported to:", file_path, "\n")
+
+
 __Data exported to: /Users/kumbalas-INS/Documents/cpi_core.xlsx__
 
 ![image](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/assets/147195203/34588c2a-7a6c-4365-a39d-a48027695b75) **Find the excel file here:** [cpi_core.xlsx](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/files/13245727/cpi_core.xlsx)
@@ -73,6 +75,8 @@ __Export Data to a xlsx file__
 > - file_path <- "/Users/kumbalas-INS/Documents/g.xlsx"
 > - write.xlsx(subset, file_path, sheetName = "gasprices1", rowNames = FALSE)
 > - cat("Data exported to:", file_path, "\n")
+
+
 __Data exported to: /Users/kumbalas-INS/Documents/g.xlsx__
 
 ![image](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/assets/147195203/34588c2a-7a6c-4365-a39d-a48027695b75) **Find the excel file here:** [g.xlsx](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/files/13245822/g.xlsx)
@@ -124,17 +128,25 @@ __Export Data to a xlsx file__
 > - file_path <- "/Users/kumbalas-INS/Documents/participation_rate.xlsx"
 > - write.xlsx(participation_rate, file_path, sheetName = "participation_rate", rowNames = FALSE)
 > - cat("Data exported to:", file_path, "\n")
-- __Data exported to: /Users/kumbalas-INS/Documents/participation_rate.xlsx__
+
+
+__Data exported to: /Users/kumbalas-INS/Documents/participation_rate.xlsx__
+
  
 ![image](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/assets/147195203/34588c2a-7a6c-4365-a39d-a48027695b75) **Find the excel file here:** [participation_rate.xlsx](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/files/13246407/participation_rate.xlsx)
 
+
 __Export Data to a xlsx file__
+
 
 > - library(openxlsx)
 > - file_path <- "/Users/kumbalas-INS/Documents/unemployment_rate.xlsx"
 > - write.xlsx(unemployment_rate, file_path, sheetName = "unemployment_rate", rowNames = FALSE)
 > - cat("Data exported to:", file_path, "\n")
-- __Data exported to: /Users/kumbalas-INS/Documents/unemployment_rate.xlsx__
+
+
+__Data exported to: /Users/kumbalas-INS/Documents/unemployment_rate.xlsx__
+
 
 ![image](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/assets/147195203/34588c2a-7a6c-4365-a39d-a48027695b75) **Find the excel file here:** [unemployment_rate.xlsx](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/files/13246416/unemployment_rate.xlsx)
 
@@ -144,12 +156,19 @@ __Export Data to a xlsx file__
 > - library(quantmod)
 > - data$Date <- as.yearmon(data$Date)
 > - View(data)
+
+
 __Export Data to a xlsx file__
+
+
 > - library(openxlsx)
 > - file_path <- "/Users/kumbalas-INS/Documents/bankratem.xlsx"
 > - write.xlsx(data, file_path, sheetName = "Bankrts_m", rowNames = FALSE)
 > - cat("Data exported to:", file_path, "\n")
-- __Data exported to: /Users/kumbalas-INS/Documents/bankratem.xlsx__
+
+
+__Data exported to: /Users/kumbalas-INS/Documents/bankratem.xlsx__
+
   
 ![image](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/assets/147195203/34588c2a-7a6c-4365-a39d-a48027695b75) **Find the excel file here:**[bankratem.xlsx](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/files/13246595/bankratem.xlsx)
 
