@@ -115,7 +115,11 @@ __Data exported to: /Users/kumbalas-INS/Documents/g.xlsx__
 > - participation_rate$REF_DATE <- as.yearmon(participation_rate$REF_DATE)
 > - View(participation_rate)
 > - View(unemployment_rate)
+
+
 __Export Data to a xlsx file__
+
+
 > - library(openxlsx)
 > - file_path <- "/Users/kumbalas-INS/Documents/participation_rate.xlsx"
 > - write.xlsx(participation_rate, file_path, sheetName = "participation_rate", rowNames = FALSE)
