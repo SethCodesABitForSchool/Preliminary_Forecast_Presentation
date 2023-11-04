@@ -179,7 +179,7 @@ __Data exported to: /Users/kumbalas-INS/Documents/bankratem.xlsx__
 > - colnames(data)
 [1] "date"         "M1...gross."  "M1....gross." "M2....gross."
 > - library(quantmod)
-> - data$date <- as.yearmon(data$date) **this is not the foremat that should be used**
+> - data$date <- as.yearmon(data$date) **⬅ this is not the foremat that should be used**
 > - View(data)
 
 
