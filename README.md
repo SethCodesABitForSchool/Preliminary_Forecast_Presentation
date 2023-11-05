@@ -213,6 +213,7 @@ __Figure 3: Note: This chart presents a measure of median uncertainty based on t
 1. Bank of Canada - Expectations data: https://www.bankofcanada.ca/publications/canadian-survey-of-consumer-expectations/canadian-survey-of-consumer-expectations-survey-data/
 2. Corporate profits have contributed disproportionately to inflation: https://www.epi.org/blog/corporate-profits-have-contributed-disproportionately-to-inflation-how-should-policymakers-respond/
 3. Bank of Canada - International Portfolio Rebalancing and Fiscal Policy Spillovers:https://www.bankofcanada.ca/2023/11/staff-working-paper-2023-56/
+4. Identifying News Shocks from Forecasts, September 2023, International Monetary Funds: file:///C:/Users/kumbalas-INS/Downloads/wpiea2023208-print-pdf.pdf
 
 
 
