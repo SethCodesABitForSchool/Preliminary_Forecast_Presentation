@@ -205,7 +205,7 @@ __Figure 3: Note: This chart presents a measure of median uncertainty based on t
 # Mortagage Rates 
 
 ![image](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/assets/147195203/34588c2a-7a6c-4365-a39d-a48027695b75) **Find the excel file here:**[mrate.xlsx](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/files/13260692/mrate.xlsx)
-![image](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/assets/147195203/34588c2a-7a6c-4365-a39d-a48027695b75) **Find the csv file here:**[Uploading mrate22.csv…]()
+
 
 
 # Sources For Data
