@@ -334,6 +334,8 @@ In summary, selecting variables for a VAR model to forecast GDP and inflation is
 2. Corporate profits have contributed disproportionately to inflation: https://www.epi.org/blog/corporate-profits-have-contributed-disproportionately-to-inflation-how-should-policymakers-respond/
 3. Bank of Canada - International Portfolio Rebalancing and Fiscal Policy Spillovers:https://www.bankofcanada.ca/2023/11/staff-working-paper-2023-56/
 4. Identifying News Shocks from Forecasts, September 2023, International Monetary Funds: [wpiea2023208-print-pdf.pdf](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/files/13260831/wpiea2023208-print-pdf.pdf)
+5. How to Improve Inflation Forecasting in Canada - IMF Working Paper: [wpiea2019190-print-pdf.pdf](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/files/13262729/wpiea2019190-print-pdf.pdf)
+
 
 
 
