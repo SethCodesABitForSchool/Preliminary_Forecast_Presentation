@@ -15,6 +15,7 @@ Revision of Forecast
 4. **Master Dataset:**[master_data_set.xlsx](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/files/13321964/master_data_set.xlsx)
 5. **Real GDP:**[rg.csv](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/files/13322219/rg.csv)
 6. **Master Set with RGDP:**[master_data_set_everything.csv](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/files/13322258/master_data_set_everything.csv)
+7. **Code for Date that worked:**md$DATE <- as.Date(paste0("01-", md$DATE), format = "%d-%b-%y")
 
 
 
