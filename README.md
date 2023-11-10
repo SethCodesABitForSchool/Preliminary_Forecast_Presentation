@@ -1,4 +1,4 @@
-[ogq335.csv](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/files/13315286/ogq335.csv)# Preliminary_Forecast_Presentation
+[ogq335.csv](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/files/13315299/ogq335.csv)[ogq335.csv](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/files/13315286/ogq335.csv)# Preliminary_Forecast_Presentation
 Revision of Forecast
 
 - ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) `Seth`
@@ -10,78 +10,9 @@ Revision of Forecast
 # Datasets Quarterly 
 
 1. **Unemployement rate:**[unrate.xlsx](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/files/13315088/unrate.xlsx)
-2. **Output Gap:**[Uploading ogq3date,output_gap
-2006Q1,2.2
-2006Q2,1.8
-2006Q3,1.6
-2006Q4,1.4
-2007Q1,1.5
-2007Q2,1.9
-2007Q3,1.8
-2007Q4,1.5
-2008Q1,1.2
-2008Q2,1
-2008Q3,1.3
-2008Q4,0
-2009Q1,-2.2
-2009Q2,-3.4
-2009Q3,-3.3
-2009Q4,-2.5
-2010Q1,-1.7
-2010Q2,-1.4
-2010Q3,-1
-2010Q4,-0.4
-2011Q1,-0.1
-2011Q2,-0.2
-2011Q3,0.5
-2011Q4,0.7
-2012Q1,0.4
-2012Q2,0.2
-2012Q3,-0.1
-2012Q4,-0.4
-2013Q1,-0.2
-2013Q2,-0.2
-2013Q3,-0.1
-2013Q4,0.3
-2014Q1,0
-2014Q2,0.2
-2014Q3,0.5
-2014Q4,0.6
-2015Q1,-0.1
-2015Q2,-0.7
-2015Q3,-0.7
-2015Q4,-1
-2016Q1,-0.9
-2016Q2,-1.6
-2016Q3,-1.2
-2016Q4,-1
-2017Q1,-0.5
-2017Q2,0
-2017Q3,0.2
-2017Q4,0.2
-2018Q1,0.6
-2018Q2,0.8
-2018Q3,1
-2018Q4,0.8
-2019Q1,0.5
-2019Q2,0.9
-2019Q3,0.8
-2019Q4,0.7
-2020Q1,-1.6
-2020Q2,-5.9
-2020Q3,-3.8
-2020Q4,-2.6
-2021Q1,-1.5
-2021Q2,-2
-2021Q3,-0.9
-2021Q4,0.8
-2022Q1,0.9
-2022Q2,1.3
-2022Q3,1
-2022Q4,0.4
-2023Q1,0.6
-2023Q2,0.2
-35.csv…]()
+2. **Output Gap:**[ogq335.xlsx](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/files/13315307/ogq335.xlsx)
+
+
 
 
   
