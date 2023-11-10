@@ -485,5 +485,15 @@ summary(model)
 
 
 
+# New Plots 
+
+![image](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/assets/147195203/d19ae2c9-d98d-4fc7-919b-3334e01cd3ee)
+
+
+
+
+
+
+
 
 
