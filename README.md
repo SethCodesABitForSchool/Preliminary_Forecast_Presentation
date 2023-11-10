@@ -18,6 +18,32 @@ Revision of Forecast
 7. **Code for Date that worked:** md$DATE <- as.Date(paste0("01-", md$DATE), format = "%d-%b-%y")
 
 
+# Packages:
+install.packages("forecast")
+install.packages("ggplot2")
+install.packages("readr")
+install.packages("vars")
+install.packages("xts")
+install.packages("tidyverse")
+library(forecast)
+library(ggplot2)
+library(readr)
+library(vars)
+library(xts)
+library(tidyverse)
+
+# Install and load necessary packages
+install.packages(c("vars", "urca", "forecast", "ggplot2"))
+library(vars)
+library(urca)
+library(forecast)
+library(ggplot2)
+
+# Install and load necessary packages
+install.packages(c("zoo", "tseries", "xts"))
+library(zoo)
+library(tseries)
+library(xts)
 
 
 
