@@ -348,5 +348,134 @@ In summary, selecting variables for a VAR model to forecast GDP and inflation is
 
 
 
+cpi = read.csv("C:/Users/kumbalas-INS/Downloads/cpi.csv")
+
+# Assuming your data is in a data frame named 'df'
+cpi$REF_DATE <- as.Date(paste(cpi$REF_DATE, "01", sep = " "), format = "%b %Y %d")
+
+# Print the resulting data frame
+print(df)
+
+
+str(cpi)
+
+subset2 = subset(subset2, select = c("REF_DATE", "VALUE"))
+colnames(cpi)
+
+subset2 = subset%>%filter(North.American.Industry.Classification.System..NAICS.== "All industries [T001]")
+str(subset$North.American.Industry.Classification.System..NAICS.)
+str(subset2)
+
+subset2$REF_DATE = as.Date(subset2$REF_DATE)
+
+cpi <- cpi[-c(1:72), ]
+
+str(cpi)
+
+
+
+# Load the dplyr package if not already loaded
+library(dplyr)
+
+# Assuming your data frame is named 'cpi'
+cpi_quarterly <- cpi %>%
+  group_by(Quarter = zoo::as.yearqtr(REF_DATE)) %>%
+  summarise(VALUE = mean(VALUE, na.rm = TRUE))
+
+# Print the resulting data frame
+print(cpi_quarterly)
+
+
+
+gp = read.csv("C:/Users/kumbalas-INS/Documents/gp.csv")
+
+
+
+str(umr)
+
+
+umr$REF_DATE <- as.Date(paste(umr$REF_DATE, "-01"), format = "%Y %m-%d")
+
+# Assuming your data frame is named 'quarterly_data'
+cpi_quarterly$Quarter <- as.Date(sub("Q1", "-01-01", sub("Q2", "-04-01", sub("Q3", "-07-01", sub("Q4", "-10-01", cpi_quarterly$Quarter)))))
+cpi$Date <- as.Date(quarterly_data$Date, format = "%m/%d/%Y")
+
+# Print the resulting data frame
+print(quarterly_data)
+
+# Assuming your data frame is named 'cpi_quarterly'
+cpi_quarterly$Quarter <- as.Date(paste0(cpi_quarterly$Quarter, "-01"), format = "%Y Q%m-%d")
+
+# Print the resulting data frame
+print(cpi_quarterly)
+
+
+# Print the resulting data frame
+print(your_data)
+
+
+str(umr)
+
+# Assuming your data frame is named 'your_data'
+umr$REF_DATE <- as.Date(umr$REF_DATE, format = "%m/%d/%Y")
+
+# Print the resulting data frame
+print(your_data)
+
+
+# Assuming your data frame is named 'your_data'
+new_column_names <- c("REF_DATE", "U_RATE")
+
+colnames(umr) <- new_column_names
+
+
+# Assuming your datasets are named 'dataset1' and 'dataset2'
+# Assuming the common column is named 'ID'
+
+# Make sure both datasets have the same number of rows
+if (nrow(cpi_quarterly) == nrow(umr)) {
+  combined_dataset <- cbind(cpi_quarterly, umr$U_RATE)
+} else {
+  print("Datasets have different number of rows.")
+}
+
+# Load necessary libraries
+library(ggplot2)
+
+# Plot time series
+ggplot(combined_dataset, aes(x = Quarter)) +
+  geom_line(aes(y = umr$U_RATE), color = "blue", linetype = "solid") +
+  geom_line(aes(y = VALUE), color = "red", linetype = "dashed") +
+  labs(title = "Time Series of Unemployment Rate and Inflation",
+       y = "Variable Value",
+       x = "Date") +
+  theme_minimal()
+str(combined_dataset)
+
+# Calculate correlation
+correlation <- cor(combined_dataset$`umr$U_RATE`, combined_dataset$VALUE)
+
+# Print the correlation coefficient
+print(correlation)
+
+
+# Load necessary libraries
+library(lmtest)
+
+# Granger causality test
+granger_test2 <- grangertest(VALUE ~ `umr$U_RATE`, order = 4, data = combined_dataset)
+
+# Print the test results
+print(granger_test2)
+
+
+# Regression analysis
+model <- lm(`umr$U_RATE` ~ lag(VALUE, 1) + lag(VALUE, 2) + lag(VALUE, 3), data = combined_dataset)
+
+# Print regression summary
+summary(model)
+
+
+
 
 
