@@ -524,6 +524,41 @@ summary(model)
 
 
 
+# Codes
+
+# Load the ggplot2 library
+install.packages("ggplot2")
+library(ggplot2)
+install.packages("crayon")
+library(crayon)
+
+
+
+
+
+# Assuming 'subset' is your data frame
+library(ggplot2)
+
+ggplot(subset, aes(x = Year, y = V2)) +
+  geom_line(aes(group = 1, color = "Historical"), size = 1.2) +  # Historical data line
+  geom_line(data = subset[subset$Year >= "2024-01-01", ], aes(x = Year, y = V2, group = 1, color = "Forecasted"), size = 1) +  # Forecasted data line
+  geom_ribbon(data = subset[subset$Year >= "2024-01-01", ], aes(x = Year, ymin = V2 - 1, ymax = V2 + 1, fill = "Confidence Interval"), alpha = 0.5) +  # Example confidence interval
+  scale_color_manual(name = "Data", values = c("red", "blue")) +  # Manual color scale
+  scale_fill_manual(name = "Confidence Interval", values = "gray") +  # Manual fill scale
+  labs(title = "Historical and Forecasted Data",
+       x = "Year",
+       y = "RGDP Growth Rate") +
+  theme_minimal() +
+  theme(legend.position = "top")  # Adjust legend position if needed
+
+
+
+
+
+# Assuming 'subset' is your data frame
+subset <- subset[-(1:1), ]
+
+
 
 
 
