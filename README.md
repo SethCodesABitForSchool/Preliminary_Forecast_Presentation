@@ -559,7 +559,93 @@ ggplot(subset, aes(x = Year, y = V2)) +
 subset <- subset[-(1:1), ]
 
 
+gdp = read.csv("C:/Users/kumbalas-INS/Downloads/rgdp.csv")
+str(gdp)
+# Assuming your data frame is named 'gdp'
+# Remove the first column (character variable)
+gdp <- gdp[, -1]
 
+# Transpose the data frame
+transposed_gdp <- t(gdp)
+
+# Convert the transposed data to a new data frame
+transposed_gdp_df <- as.data.frame(transposed_gdp)
+
+# Print the transposed data frame
+print(transposed_gdp_df)
+
+str(transposed_gdp_df)
+
+# Assuming your transposed data frame is named 'transposed_gdp_df'
+# Manually input the years from 1980 to 2028
+years <- 1980:2028
+
+# Assign the years as column names to the transposed data frame
+colnames(transposed_gdp_df) <- as.character(years)
+
+# Print the updated transposed data frame
+print(transposed_gdp_df)
+
+
+# Assuming your transposed data frame is named 'transposed_gdp_df'
+# Manually input the years from 1980 to 2028
+years <- 1980:2028
+
+# Ensure the length of 'years' matches the number of columns in the data frame
+if (length(years) == ncol(transposed_gdp_df)) {
+  # Assign the years as column names to the transposed data frame
+  colnames(transposed_gdp_df) <- as.character(years)
+  
+  # Print the updated transposed data frame
+  print(transposed_gdp_df)
+} else {
+  print("Length of 'years' does not match the number of columns in the data frame.")
+}
+
+
+# Check the values of the 'years' vector and the column names of the transposed data frame
+print("Years vector:")
+print(years)
+
+print("Column names of transposed_gdp_df:")
+print(colnames(transposed_gdp_df))
+
+# Assign the years as column names to the transposed data frame
+colnames(transposed_gdp_df) <- as.character(years)
+
+# Print the updated transposed data frame
+print(transposed_gdp_df)
+
+subset = subset(combined_df, select = c("Year", "V2"))
+
+str(subset)
+
+dates <- as.Date(paste0(years, "-01-01"))
+
+# Convert the 'years' vector to a data frame
+years_df <- data.frame(Year = dates)
+
+# Print the data frame
+print(years_df)
+
+
+
+
+
+# Assuming 'transposed_gdp_df' is your existing data frame
+combined_df <- cbind(years_df, transposed_gdp_df)
+
+# Print the combined data frame
+print(combined_df)
+
+
+
+plot(subset, type= "l", main= "Something")
+
+
+
+
+****
 
 
 
