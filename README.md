@@ -1,6 +1,13 @@
 # Preliminary_Forecast_Presentation
 Revision of Forecast
 
+
+![image](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/assets/147195203/d06b6a84-afad-4c36-8b65-e51f1f86059d)
+
+
+
+
+
 - ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) `Seth`
 - ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) `Heena`
 - ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) `Ayesha`
