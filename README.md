@@ -386,6 +386,7 @@ In summary, selecting variables for a VAR model to forecast GDP and inflation is
 4. Identifying News Shocks from Forecasts, September 2023, International Monetary Funds: [wpiea2023208-print-pdf.pdf](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/files/13260831/wpiea2023208-print-pdf.pdf)
 5. How to Improve Inflation Forecasting in Canada - IMF Working Paper: [wpiea2019190-print-pdf.pdf](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/files/13262729/wpiea2019190-print-pdf.pdf)
 6. Estimation of VAR models: [ECO_2011_30.pdf](https://github.com/SethCodesABitForSchool/Preliminary_Forecast_Presentation/files/13262780/ECO_2011_30.pdf)
+7. https://www.elibrary.imf.org/view/journals/002/2023/286/article-A001-en.xml
 
 
 
